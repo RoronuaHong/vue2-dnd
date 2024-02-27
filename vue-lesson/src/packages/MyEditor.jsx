@@ -17,6 +17,9 @@ export default defineComponent({
         return props.modelValue
       },
       set(newVal) {
+        console.log(555)
+        console.log(newVal)
+
         ctx.emit('update:modelValue', deepcopy(newVal))
       }
     })
