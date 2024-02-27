@@ -23,7 +23,7 @@ console.log(registerConfig)
 
 registerConfig.register({
   label: '文本',
-  preview: () => '预览文本',
+  preview: () => '预览文本1',
   render: () => '渲染文本',
   key: 'text'
 })
